@@ -1,11 +1,6 @@
 # Kirby 3 Srcset
 
-![Release](https://flat.badgen.net/packagist/v/bnomei/kirby3-srcset?color=ae81ff)
-![Downloads](https://flat.badgen.net/packagist/dt/bnomei/kirby3-srcset?color=272822)
-[![Build Status](https://flat.badgen.net/travis/bnomei/kirby3-srcset)](https://travis-ci.com/bnomei/kirby3-srcset)
-[![Coverage Status](https://flat.badgen.net/coveralls/c/github/bnomei/kirby3-srcset)](https://coveralls.io/github/bnomei/kirby3-srcset) 
-[![Maintainability](https://flat.badgen.net/codeclimate/maintainability/bnomei/kirby3-srcset)](https://codeclimate.com/github/bnomei/kirby3-srcset) 
-[![Twitter](https://flat.badgen.net/badge/twitter/bnomei?color=66d9ef)](https://twitter.com/bnomei)
+A fork primarily for use in my personal website.
 
 ### Kirby 3 Plugin for creating lazyloading image srcset
 
@@ -33,6 +28,8 @@ This plugin extends the core `(image: )`-Kirbytag. All params that work for `(im
 
 ## Commerical Usage
 
+**Please support the developer of the original plugin if you use this fork.**
+
 This plugin is free but if you use it in a commercial project please consider to 
 - [make a donation 🍻](https://www.paypal.me/bnomei/5) or
 - [buy me ☕](https://buymeacoff.ee/bnomei) or
@@ -40,9 +37,8 @@ This plugin is free but if you use it in a commercial project please consider to
 
 ## Installation
 
-- unzip [master.zip](https://github.com/bnomei/kirby3-srcset/archive/master.zip) as folder `site/plugins/kirby3-srcset` or
-- `git submodule add https://github.com/bnomei/kirby3-srcset.git site/plugins/kirby3-srcset` or
-- `composer require bnomei/kirby3-srcset`
+- unzip [master.zip](https://github.com/colin-johnston/kirby3-srcset/archive/master.zip) as folder `site/plugins/kirby3-srcset` or
+- `git submodule add https://github.com/colin-johnston/kirby3-srcset.git site/plugins/kirby3-srcset` or
 
 ## Usage Kirby Tag
 
