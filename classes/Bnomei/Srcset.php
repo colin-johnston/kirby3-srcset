@@ -243,7 +243,7 @@ final class Srcset
     public function applyWrapper(string $text, array $data = []): string
     {
         if ($this->option('markdown.extra')) {
-            return "\n\n<lazysrcset>\n\n" . $text . "\n\n</lazysrcset>\n\n";
+            return "\n\n<div>\n\n" . $text . "\n\n</div>\n\n";
         }
         return $text;
     }
@@ -277,7 +277,7 @@ final class Srcset
         if (A::get($data, 'caption')) {
             $text = str_replace(
                 ['><img', '><figcaption>'],
-                ['><span class="'.A::get($data, 'ratio').'" data-ratio="'.$ratio.'"><img', '></span><figcaption>'],
+                ['><div class="'.A::get($data, 'ratio').'" data-ratio="'.$ratio.'"><img', '></div><figcaption>'],
                 $text
             );
         } else {
